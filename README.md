@@ -6,12 +6,12 @@
 1) Python and PIP
    
        pacman -S python python-pip
-3) MediaPipe and OpenCV  
+2) MediaPipe and OpenCV  
 
        pip install mediapipe opencv-python
-   *Note: Make sure you set up a Python virtual environment and use the* `source` *command to run from it. Otherwise, PIP will fail to install the necessary packages.*
-5) Download the MediaPipe Hand Landmarker Task model.  
-   *Note: The Hand Landmarker Task Model is currently included in the repo for testing purposes. It will be removed when base development is complete.*  
+   > Note: Make sure you set up a Python virtual environment and use the* `source` *command to run from it. Otherwise, PIP will fail to install the necessary packages.
+3) Download the MediaPipe Hand Landmarker Task model.  
+   > Note: The Hand Landmarker Task Model is currently included in the repo for testing purposes. It will be removed when base development is complete.  
 
    Run the following from the folder you intend to use to store the .py file:
 
@@ -33,4 +33,4 @@
         
         # If you recieve a "no QT platform plugin could be initialized" error:
         QT_QPA_PLATFORM=xcb python unified_hand_control.py
-   *To change any presets, edit the* `config.json` *file with your preferred text/json editor.*
+> To change any presets, edit the* `config.json` *file with your preferred text/json editor.
