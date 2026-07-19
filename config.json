@@ -1,4 +1,8 @@
 {
+    "webcam": {
+        "index": 0,
+        "show_feed": true
+    },
     "model_path": "hand_landmarker.task",
     "evaluation" : {
         "window_seconds": 0.15,
@@ -7,5 +11,18 @@
     "movement": {
         "swipe_threshold_x": 0.10,
         "swipe_threshold_y": 0.18
+    },
+    "actions": {
+        "swipe": {
+            "one_finger": {
+                "up": "niri msg action focus-workspace-down",
+                "down": "niri msg action focus-workspace-up",
+                "left": "niri msg action focus-column-left",
+                "right": "niri msg action focus-column-right"
+            },
+            "two_finger": {
+
+            }
+        }
     }
 }
