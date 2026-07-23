@@ -1,17 +1,17 @@
 {
-    "execution_tool": "unset",
-    "debug_mode": true,
+    "execution_tool": "ydotool",
+    "debug_mode": false,
     "webcam": {
         "index": 0,
         "show_feed": true
     },
     "model_path": "hand_landmarker.task",
-    "evaluation" : {
+    "evaluation": {
         "window_seconds": 0.15,
         "cooldown_seconds": 0.25
     },
     "movement": {
-        "swipe_threshold_x": 0.10,
+        "swipe_threshold_x": 0.1,
         "swipe_threshold_y": 0.18
     },
     "proximity": {
@@ -21,14 +21,23 @@
     "actions": {
         "swipe": {
             "one_finger": {
-                "up": "niri msg action focus-workspace-down",
-                "down": "niri msg action focus-workspace-up",
-                "left": "niri msg action focus-column-left",
-                "right": "niri msg action focus-column-right"
+                "up": "",
+                "down": "",
+                "left": "",
+                "right": ""
             },
             "two_finger": {
-
+                "up": "",
+                "down": "",
+                "left": "",
+                "right": ""
+            },
+            "three_finger": {
+                "up": "",
+                "down": "",
+                "left": "",
+                "right": ""
             }
         }
     }
-}       
+}
